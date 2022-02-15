@@ -1,9 +1,8 @@
+import Layout from "./components/common/Layout";
 
 function App() {
   return (
-    <>
-      Hello
-    </>
+    <Layout></Layout>
   );
 }
 

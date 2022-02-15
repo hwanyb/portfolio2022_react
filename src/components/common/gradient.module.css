@@ -1,0 +1,116 @@
+.gradient1{
+    animation: gradationAni1 7s alternate infinite;
+}
+.gradient2{
+    animation: gradationAni2 8s alternate infinite;
+}
+.gradient3{
+    animation: gradationAni3 6s alternate infinite;
+}
+.gradient4{
+    animation: gradationAni4 9s alternate infinite;
+}
+.gradient5{
+    animation: gradationAni5 10s alternate infinite;
+}
+
+
+@keyframes gradationAni1 {
+    from {
+        top: -150px;
+        left: -100px;
+        width: 1222px;
+        height: 800px;
+        transform:rotate(0deg);
+        transform: skew( 0, 0 );
+        background-color: #c7d8ff;
+    }
+    to {
+        top: 550px;
+        left: 1700px;
+        width: 222px;
+        height: 1800px;
+        transform:rotate(200deg);
+        transform: skew( 10deg, 10deg );
+        background-color: #ffffff;
+    }
+}
+
+
+@keyframes gradationAni2 {
+    from {
+        top: 200px;
+        left: 300px;
+        width: 1000px;
+        height: 650px;
+        background-color: rgba(255, 185, 185, 0.699);
+        transform: skew(50deg, -13deg);
+        transform:rotate(-10deg);
+    }
+    to {
+        top: -500px;
+        left: -550px;
+        width: 1600px;
+        height: 1200px;
+        background-color: rgba(222, 182, 255, 0.733);
+        transform: skew(10deg, -10deg);
+        transform:rotate(200deg);
+    }
+}
+
+
+@keyframes gradationAni3 {
+    from {
+        top: 500px;
+        left: -200px;
+        width: 1500px;
+        height: 850px;
+        background-color: rgba(255, 250, 174, 0.788);
+    }
+    to {
+        top: -80px;
+        left: 1500px;
+        width: 400px;
+        height: 40px;
+        background-color: rgba(255, 198, 198, 0.884);
+        transform:rotate(-295deg);
+
+    }
+}
+
+@keyframes gradationAni4 {
+    from {
+        width: 1000px;
+        height: 680px;
+        top: -200px;
+        right: -500px;
+        background-color: rgba(254, 255, 202, 0.733);
+    }
+    to {
+        width: 650px;
+        height: 1300px;
+        top: 1000px;
+        right:600px;
+        background-color: rgba(163, 164, 255, 0.651);
+        transform:rotate(300deg);
+    }
+}
+
+@keyframes gradationAni5 {
+    from {
+        bottom: -1000px;
+        right: -200px;
+        width: 1000px;
+        height: 1800px;
+        background-color: rgba(136, 103, 255, 0.61);
+        transform:rotate(-10deg);
+    }
+    to {
+        bottom: 600px;
+        right: 200px;
+        width: 2000px;
+        height: 2500px;
+        background-color: rgb(255, 166, 166);
+        transform:rotate(286deg);
+    }
+}
